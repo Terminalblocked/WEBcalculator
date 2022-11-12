@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Title</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div class="container">
         <div class="calculator dark">
             <div class="theme-toggler active">
-                <i class="toggler-icon"></i>
+                <i class="fa-solid fa-moon toggler-icon"></i>
             </div>
             <div class="display-screen">
                 <div id="display"></div>
@@ -22,7 +23,7 @@
                         <td><button class="btn-operator" id="clear">C</button></td>
                         <td><button class="btn-operator" id="/">&divide;</button></td>
                         <td><button class="btn-operator" id="*">&times;</button></td>
-                        <td><button class="btn-operator" id="backspace"><</button></td>
+                        <td><button class="btn-operator" id="backspace"><i class="fa-sharp fa-solid fa-delete-left"></i></button></td>
                     </tr>
                     <tr>
                         <td><button class="btn-number" id="7">7</button></td>
@@ -51,6 +52,6 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
